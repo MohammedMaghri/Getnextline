@@ -1,0 +1,12 @@
+.
+..
+.vscode
+Makefile
+a.out
+copy.c
+get_next_line.c
+lencount.c
+main.c
+nextline.h
+test.txt
+txt.cv

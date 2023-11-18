@@ -1,0 +1,12 @@
+123 456 789669123 456 789 123
+
+to the start of the register save area.
+overflow_arg_area This pointer is used to fetch arguments passed on the stack.
+gp_offset The element holds the offset in bytes 
+from reg_save_area to the place where the next available general purpose argument register is saved.
+ In case all argument registers have been exhausted, it is set to the value 48 (6∗8).
+ It is initialized with the address of the first argument passed on the stack, 
+ if any, and then always updated to point to the start of the next argument on the stack.
+fp_offset The element holds the offset in bytes from reg_save_area to the place where the next available floating point
+ argument register is saved. In case all argument registers have been exhausted, it is set to the value 304 (6∗*****+16∗16).
+The va_arg Macro
