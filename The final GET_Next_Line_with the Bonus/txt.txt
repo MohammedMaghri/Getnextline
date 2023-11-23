@@ -1,0 +1,6 @@
+clear
+ls
+s 
+ls
+ss
+ss
